@@ -11,7 +11,7 @@ Main content border color: #dddddd */
 body {
     width: 100%;
     margin: 0 auto;
-    background-color: #c8c8c8;
+    background-color: #DCDCDC;
     padding-bottom: 0px !important;
   }
   
@@ -22,19 +22,19 @@ body {
   }
   
   footer {
-    background: #666;
+    background-image: linear-gradient( to top, #666, #DCDCDC 300% );
   }
 
   .header-container, .main-container, .footer-container {
     padding-top: 40px;
-    background-color: #c8c8c8;
+    background-color: #DCDCDC;
     max-width: 960px;
     margin: auto;
 }
 
 .header-container {
     padding-top: 31px;
-    background-color: #e8e8e8;
+    background-color: #F5F5F5;
 }
 
 /* FONTS */
@@ -60,10 +60,10 @@ p {
 }
 
 nav a {
-    font-weight: 700;
+    font-weight: 600;
     padding-left: 10px;
     padding-right: 10px;
-    border-left: 2px solid #c8c8c8;
+    border-left: 2px solid #dcdcdc;
     color: #666;
 }
 
@@ -79,9 +79,9 @@ nav a:hover {
 /* HEADER STYLES */
 header {
     max-width: 100%;
-    background-color: #e8e8e8;
+    background-color: #F5F5F5;
     height: 100px;
-    border-bottom: 1px solid #a9a9a9;
+    border-bottom: 1px solid #BEBEBE;
 }
 
 .headerh1 {
@@ -90,7 +90,7 @@ header {
     padding: 10px;
     margin: 0px;
     color: #fff;
-    border: 1px solid #a9a9a9;
+    border: 1px solid #BEBEBE;
     border-bottom: none !important;
     font-weight: 600;
 }
@@ -108,15 +108,15 @@ ul li {
 
 .column1, .column2 {
     float: left;
-    border: 1px solid #a9a9a9;
+    border: 1px solid #BEBEBE;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-    background-color: #e8e8e8 !important;
+    background-color: #F5F5F5 !important;
+    margin-bottom: 60px;
 }
 
 .column1 {
     width: 650px;
     padding-bottom: 20px;
-    margin-bottom: 60px;
 }
 
 .column2 {
@@ -150,7 +150,7 @@ footer {
     text-align: center;
     padding-top: 20px;
     color: #c8c8c8;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 main {
@@ -195,4 +195,38 @@ main {
     background: #f48023;
     font-size: 3em;
     margin: 0 0px 0 0px;
+}
+
+/* CONTACT FORM STYLING */
+
+form {
+    margin: 20px;
+}
+
+form input, textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    font-weight: 100;
+    color: #696969;
+    padding-left: 5px;
+}
+
+#submit-button {
+    width: 25%;
+    background-color: #3f5c94;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+
+}
+
+label {
+    margin-bottom: 0px;
+    color: #666;
+    font-weight: 600;
+}
+
+form labe [type=text] {
+    color: #ffcc66;
 }

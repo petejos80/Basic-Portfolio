@@ -31,16 +31,23 @@
     <main>
         <div class="main-container">
                 <div class="row">
-                        <div class="column1" style="background-color:#aaa;">
-                            <h2>About me</h2>
+                        <div class="column1">
+                            <h2>Contact</h2>
                             <hr>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla elit eu lacus vulputate euismod. Quisque ac turpis sit amet nisl placerat vulputate. Fusce ultricies, tellus vel sodales volutpat, eros mi feugiat ex, at bibendum eros dui quis enim. In hac habitasse platea dictumst. In varius mi eu risus fermentum tristique. Duis est libero, lobortis quis felis quis, hendrerit vehicula massa. Vivamus tincidunt, odio id luctus efficitur, augue tortor blandit arcu, in tincidunt orci ex non nunc. Etiam at nibh ac nulla placerat tincidunt.</p>
-
-                            <p>Donec faucibus fermentum risus, id aliquet nibh feugiat nec. Suspendisse sed urna massa. Aliquam suscipit turpis non nibh lacinia, ut mollis nulla efficitur. Praesent sagittis dui et eros convallis, non vehicula magna condimentum. Morbi at imperdiet tortor. Nunc vel bibendum dui. Maecenas dapibus arcu a hendrerit eleifend. Quisque nisl eros, fermentum non blandit in, eleifend non neque.</p>
-                            
-                            <p>Sed ultricies placerat elit at luctus. Sed hendrerit purus lorem, sit amet feugiat urna consectetur ut. Ut vitae elementum quam. Integer pharetra feugiat sem, quis dictum massa dapibus non. Fusce lobortis, felis sed faucibus ornare, lorem massa egestas neque, vel semper leo sem eget nunc. Vivamus lacinia imperdiet justo, id sollicitudin sapien rutrum in. Curabitur semper, ex nec ullamcorper facilisis, augue lectus laoreet urna, eu vulputate diam velit quis orci. Aenean leo turpis, interdum ac congue hendrerit, facilisis sed augue. Quisque sed sem semper, mattis nisi non, scelerisque quam. Etiam aliquet, odio vitae iaculis dictum, nisi sapien volutpat tortor, eget cursus lectus elit vitae sapien. Quisque felis enim, aliquam id tincidunt quis, imperdiet nec nulla. Suspendisse egestas scelerisque nisi vel finibus. Proin tempus auctor metus quis vestibulum. Sed malesuada nibh quis lacinia malesuada.</p>
+                            <form action="/action_page.php">
+                                <label>First name</label><br>
+                                <input type="text" name="firstname">
+                                <br>
+                                <label>Last name</label><br>
+                                <input type="text" name="lastname">
+                                <br>
+                                <label>Your Message</label><br>
+                                <textarea rows="8" cols="50" name="message"></textarea>
+                                <br><br>
+                                <input id="submit-button" type="submit" value="Submit">
+                              </form>            
                         </div>
-                        <div class="column2" style="background-color:#bbb;">
+                        <div class="column2">
                             <h2>Connect with Me</h2>
                             <hr>
                             <div style="text-align: center" class="socialicons">
