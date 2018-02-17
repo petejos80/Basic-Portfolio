@@ -143,7 +143,7 @@ body {
 }
 
 footer {
-    border-top: 3px solid #3f5c94;
+    border-top: 10px solid #3f5c94;
 }
 
 .footerp {
@@ -176,7 +176,12 @@ main {
     color: #fff;
     padding: 0px 10px 0px 10px;
     border-radius: 5px;
-    border-bottom: 1px solid #a9a9a9;
+}
+
+.git:hover, .linkedin:hover, .stackoverflow:hover {
+    color: #666;
+    background-color: #BEBEBE;
+    text-decoration: underline;
 }
 
 .git {
@@ -229,4 +234,24 @@ label {
 
 form labe [type=text] {
     color: #ffcc66;
+}
+
+/* PORTFOLIO IMAGE FORMATTING */
+
+.imgcolumn1, .imgcolumn2 {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/skyscrapers.jpg);
+    width: 300px;
+    height: 250px;
+    margin-left: 16px;
+    margin-top: 16px;
+    padding-top: 16px;
+}
+
+.imgcolumn1 h4, .imgcolumn2 h4 {
+    font-weight: 900;
+    text-align: center;
+    background-color: #3f5c94;
+    margin: 150px 0 20px 0;
+    padding: 10px;
+    color: #fff;
 }
